@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css"></link>
+  <title>Useless Message</title>
+</head>
+<body>
+  <div class="message-container frame">
+    <h1 class="inner">Useless Message</h1>
+    <br class="underline" />
+    <div>
+      <ol id="message-container">
+        <li>Test message, by: <span> icanq</span></li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="send-message frame">
+    <div class="inner">
+      <label>name</label>
+      <input class="inner" type="text" id="input-name" placeholder="Your name" />
+      <label>message</label>
+      <input class="inner" type="text" id="input-message" placeholder="Type your message here" />
+      <button onclick="sendMessage()">submit</button>
+    </div>
+  </div>
+</body>
+<script src="js/message.js"></script>
+</html>
